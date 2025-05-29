@@ -1,0 +1,11 @@
+# Ignore log files
+*.log
+
+# Ignore encryption key
+*.key
+
+# Ignore decrypted output
+decrypted_keystrokes.txt
+
+# Ignore Python cache
+__pycache__/
