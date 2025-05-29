@@ -1,0 +1,4 @@
+pynput
+cryptography
+Users can then install dependencies using:
+pip install -r requirements.txt
