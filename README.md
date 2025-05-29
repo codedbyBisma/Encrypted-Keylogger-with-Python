@@ -31,11 +31,13 @@ A basic keylogger built with Python using pynput and Fernet encryption. Captures
 ├── README.md                # Project documentation
 
 🚀 How It Works
+
 Run keylogger.py
 
 It begins logging your keystrokes into a hidden .keystrokes.log file. Once the script ends (e.g. via Ctrl+C), it encrypts the log and saves it as .keystrokes_encrypted.log. The original log is deleted.
 
 Run decrypt_log.py
+
 This script reads the encrypted log and decrypts it using the stored Fernet key (.encryption_key.key). The output is saved to decrypted_keystrokes.txt.
 
 🔐 Security Notes
@@ -49,14 +51,19 @@ The encryption key is stored locally in .encryption_key.key and should not be up
 Log files and decrypted outputs are ignored using .gitignore.
 
 📦 Requirements
+
 Install dependencies using:
+
 pip install pynput cryptography
 
 📝 Usage
+
 Run the keylogger:
+
 python3 keylogger.py
 
 ❌ Files Not Uploaded
+
 For security reasons, the following files are not included in the GitHub repo:
 
 .keystrokes.log
@@ -72,6 +79,10 @@ These are listed in .gitignore.
 ✅ Disclaimer
 
 This project is created solely for learning and demonstration purposes. Misuse of this code is not the responsibility of the developer. Always ensure ethical use of monitoring tools.
+
+📄 License
+
+This project is licensed under the MIT License - feel free to use, modify, and share with attribution.
 
 ✍️ Author
 
