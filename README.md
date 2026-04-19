@@ -40,7 +40,7 @@ Run decrypt_log.py
 
 This script reads the encrypted log and decrypts it using the stored Fernet key (.encryption_key.key). The output is saved to decrypted_keystrokes.txt.
 
-Security Notes
+## Security Notes
 
 This project is for educational purposes only.
 
@@ -50,13 +50,13 @@ The encryption key is stored locally in .encryption_key.key and should not be up
 
 Log files and decrypted outputs are ignored using .gitignore.
 
-Requirements
+## Requirements
 
 Install dependencies using:
 
 pip install pynput cryptography
 
-Usage
+## Usage
 
 Run the keylogger:
 
@@ -76,14 +76,14 @@ decrypted_keystrokes.txt
 
 These are listed in .gitignore.
 
-Disclaimer
+## Disclaimer
 
 This project is created solely for learning and demonstration purposes. Misuse of this code is not the responsibility of the developer. Always ensure ethical use of monitoring tools.
 
-License
+## License
 
 This project is licensed under the MIT License - feel free to use, modify, and share with attribution.
 
-Author
+## Author
 
 Bisma Khushi
