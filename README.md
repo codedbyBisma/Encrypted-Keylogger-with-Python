@@ -30,7 +30,7 @@ A basic keylogger built with Python using pynput and Fernet encryption. Captures
 
 ├── README.md                # Project documentation
 
-How It Works
+## How It Works
 
 Run keylogger.py
 
